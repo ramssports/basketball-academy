@@ -1,0 +1,128 @@
+
+
+        <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription | RAMS Basketball Academy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<script src="js/main.js"></script>
+<body>
+
+    <!-- HEADER -->
+<header>
+    </nav>
+    <header class="header">
+    <div class="logo">🏀RAMS Basketball Academy</div>
+    <div class="menu-toggle" id="menuToggle">☰
+    </div>
+    <nav id="mobileMenu" class="mobile-menu">
+        <a href="index.html">Accueil</a>
+        <a href="president.html">Mot du Président fondateur</a>
+        <a href="programme_fille.html">Programme d'acompagnement des filles</a>
+        <a href="partenaire.html">Devenir Partenaire</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <h1>Formulaire d’Inscription</h1>
+        <p>Rejoignez la RAMS Basketball Academy et développez votre talent.</p>
+    </section>
+
+    <!-- ================= FORMULAIRE COMPLET ================= -->
+    <section class="inscription-section">
+
+        <form action="https://formspree.io/f/mkovbelj" method="POST" class="inscription-form">
+
+            <h2>Informations du joueur</h2>
+
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="date">Date de naissance</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="sexe">Sexe</label>
+            <select id="sexe" name="sexe" required>
+                <option value="">-- Sélectionner --</option>
+                <option>Masculin</option>
+                <option>Féminin</option>
+            </select>
+
+            <label for="taille">Taille (en mètres)</label>
+            <input type="number" id="taille" name="taille">
+
+            <label for="poids">Poids (en kg)</label>
+            <input type="number" id="poids" name="poids">
+
+            <label for="poste">Poste préféré</label>
+            <select id="poste" name="poste">
+                <option value="">-- Sélectionner --</option>
+                <option>Meneur</option>
+                <option>Arrière</option>
+                <option>Ailier</option>
+                <option>Ailier Fort</option>
+                <option>Pivot</option>
+            </select>
+
+            <label for="experience">Niveau d'expérience</label>
+            <select id="experience" name="experience" required>
+                <option value="">-- Sélectionner --</option>
+                <option>Débutant</option>
+                <option>Intermédiaire</option>
+                <option>Avancé</option>
+                <option>Compétition</option>
+            </select>
+
+            <h2>Informations du parent / tuteur</h2>
+
+            <label for="parent">Nom du parent ou tuteur</label>
+            <input type="text" id="parent" name="parent" required>
+
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email">
+
+            <h2>Informations médicales</h2>
+
+            <label for="sante">Problèmes médicaux connus</label>
+            <textarea id="sante" name="sante" rows="4"></textarea>
+            <!DOCTYPE html>
+
+            <!-- Sujets + redirect vers page de remerciement -->
+        <input type="hidden" name="_subject" value="Nouvelle inscription – RAMS Basketball Academy">
+        <input type="hidden" name="_next" value="https://sidoine18.github.i/merci.html">
+
+
+            <label>
+                <input type="checkbox" required>
+                Je certifie que les informations fournies sont exactes.
+            </label>
+
+            <button type="submit">Soumettre l'inscription</button>
+
+        </form>
+
+    </section>
+
+    
+
+
+       
+        
+       <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2026 RAMS Basketball Academy | Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>

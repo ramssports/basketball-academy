@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | RAMS Basketball Academy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<script src="js/main.js"></script>
+<body>
+
+    <!-- HEADER -->
+<header>
+    </nav>
+    <header class="header">
+    <div class="logo">🏀RAMS Basketball Academy</div>
+    <div class="menu-toggle" id="menuToggle">☰
+    </div>
+    <nav id="mobileMenu" class="mobile-menu">
+        <a href="index.html">Accueil</a>
+        <a href="president.html">Mot du président fondateur</a>
+        <a href="programme_fille.html">Programme d'acompagnement des filles</a>
+        <a href="partenaire.html">Devenir Partenaire</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <h1>Contactez-nous</h1>
+        <p>Nous sommes disponibles pour répondre à toutes vos questions.</p>
+    </section>
+
+    <!-- ================= INFOS CONTACT ================= -->
+    <section class="contact">
+        <h2>Nos Coordonnées</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <p><strong>Email :</strong> ramssports25@gmail.com</p>
+                <p><strong>Téléphone :</strong> +229 01 66 39 67 55</p>
+                <p><strong>Localisation :</strong> Bohicon, Bénin, Afique de l'Ouest</p>
+                <p><strong>Horaires :</strong> Lundi - Samedi | 08h00 - 18h00</p>
+            </div>
+
+            <!-- ================= FORMULAIRE ================= -->
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                <form action="https://formspree.io/f/mkovbelj" method="post">
+                
+                    
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet">
+                    <input type="hidden" name="_subject" value="Nouveau message – RAMS Basketball Academy">
+                   
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Envoyer le message</button>
+                    <input type="hidden" name="_redirect" value="merci.html">
+                    
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2026 RAMS Basketball Academy | Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
